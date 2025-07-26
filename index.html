@@ -47,24 +47,9 @@
 
 
 
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+    <tr>
       <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='ever_image'>
-		<img src='fig/AMContrast3D_after.png' width=100%>
-	  </div>
-		<img src='fig/AMContrast3D_before.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function ever_start() {
-            document.getElementById('ever_image').style.opacity = "1";
-          }
-
-          function ever_stop() {
-            document.getElementById('ever_image').style.opacity = "0";
-          }
-          ever_stop()
-        </script>
+	      <img src='fig/AMContrast3D_before.png' width=100%>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
 	<span class="papertitle">Adaptive Margin Contrastive Learning for Ambiguity-aware 3D Semantic Segmentation
